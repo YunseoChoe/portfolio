@@ -31,7 +31,7 @@ export default async function ProjectDetail({ params }: PageProps<"/projects/[sl
 
   return (
     <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
-      <Link href="/projects" className="text-sm text-muted hover:text-accent">← 프로젝트 목록</Link>
+      <Link href="/#projects" className="text-sm text-muted hover:text-accent">← 프로젝트 목록</Link>
 
       <header className="mt-6">
         <p className="font-mono text-sm font-semibold text-accent">{project.period}</p>

@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__Claude_Browser__browser_batch",
+  "tool_input_preview": "{\"actions\":[{\"name\":\"computer\",\"input\":{\"action\":\"wait\",\"duration\":3}},{\"name\":\"navigate\",\"input\":{\"url\":\"http://localhost:3000\"}},{\"name\":\"computer\",\"input\":{\"action\":\"screenshot\",\"scale\":0.5}},{\"nam...",
+  "error": "actions[0] (computer:wait) failed: There is no page to screenshot, zoom into or click — this tool only acts on a page in the Browser pane (not on files, the desktop or other apps). No preview is open. Use `preview_start` or `navigate` with {\"url\": \"https://…\"} to open a browser tab at a URL, or `preview_start` with {\"name\": \"…\"} to start a dev server from .claude/launch.json. (0 completed, 4 remaining)",
+  "timestamp": "2026-11-04T08:32:57.079Z",
+  "retry_count": 1
+}
